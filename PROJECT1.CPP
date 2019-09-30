@@ -2,7 +2,9 @@
 #include<conio.h>
 #include<fstream.h>
 #include<stdio.h>
-class person
+
+"""class for users entities of the programme"""
+class person                    
 {
   char name[20];
   int id;
@@ -35,6 +37,7 @@ class person
 
 };
 
+"""block for writing user records in txt file imported"
 void main()
 { clrscr();
 
